@@ -13,7 +13,7 @@ $$k(x_p, x_q) = \sigma_f^2 \exp\left(-\frac{|x_p - x_q|^2}{2\ell^2}\right)$$
  cov(yp, yq) = k(xp, xq) + σ
 2
 n
-δpq or cov(y) ![070894b0ff45ce5066984fbee63ff91f](https://github.com/user-attachments/assets/1799414c-89e1-4ee1-8c94-2a49acb22d49)
+δpq or cov(y) 
 = K(X, X) + σ
 2
 n
