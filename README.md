@@ -21,3 +21,22 @@ I, (2.20)
 为什么加的是 $\sigma_n^2 I$（单位矩阵），而不是在矩阵的所有格子里都加上噪声？物理真相：传感器的手抖是“独立 (Independent)”的！机器狗的左前腿传感器（点 $p$）因为踩到石头剧烈抖动，绝不会通过电线传染给右后腿的传感器（点 $q$）。它们俩的噪声毫无关联。数学表达： 在协方差矩阵里，只有自己跟自己比（也就是矩阵的主对角线，此时 $p=q$），才会加上这个噪声 $\sigma_n^2$。这就是 克罗内克 $\delta_{pq}$ (Kronecker delta) 的作用：碰到自己人（对角线）就是 1，碰到别人就是 0。
 ##
 <img width="1134" height="504" alt="image" src="https://github.com/user-attachments/assets/b782696e-b2c5-40bb-9dbb-675500adbb05" />
+##
+<img width="981" height="200" alt="image" src="https://github.com/user-attachments/assets/5514a7cc-f667-4447-ba76-037b3308162d" />
+23：均值
+24方差，这是机器狗对自己刚刚做出的预测，给出的**“不确定性警告”**（方差）。这决定了机器狗是该狂奔，还是该小心翼翼地试探。
+##
+单点降维<img width="867" height="138" alt="image" src="https://github.com/user-attachments/assets/cdef8622-45f3-4f19-8dde-4a79741f3537" />
+<img width="1111" height="571" alt="image" src="https://github.com/user-attachments/assets/35b746c0-960d-4ddc-ac7c-3bfcc47f0728" />
+##
+矩阵的现实应用
+：矩阵 $K(X_*, X)$，就是用“行”代表未知，用“列”代表已知，把所有的单根“引力线”，编织成了一张巨大的“交叉引力网”
+##
+<img width="972" height="108" alt="image" src="https://github.com/user-attachments/assets/fa4dd388-2385-4283-9e7a-5844a9e4ba2e" />
+
+<img width="1142" height="584" alt="image" src="https://github.com/user-attachments/assets/d16a5045-e9c4-4293-806f-24a90daa5d83" />
+
+
+
+
+
