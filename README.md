@@ -5,3 +5,5 @@
 SE 核是一把认定“世界绝对平滑”的尺子
 l 只管“宽窄”（地形有多碎、多平缓）。西格玛平方 只管“高低”（地形的落差有多恐怖）。
 $$k(x_p, x_q) = \sigma_f^2 \exp\left(-\frac{|x_p - x_q|^2}{2\ell^2}\right)$$
+所以，这就引出了《GPML》第 5 章的终极奥义：超参数优化 (Hyperparameter Optimization)！
+（这里的超参数，指的就是 $\ell$, $\sigma_f^2$ 和 噪声 $\sigma_n^2$ 这几个旋钮）。
