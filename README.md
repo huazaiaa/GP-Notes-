@@ -18,7 +18,8 @@ n
 2
 n
 I, (2.20)
-为什么加的是 $\sigma_n^2 I$（单位矩阵），而不是在矩阵的所有格子里都加上噪声？物理真相：传感器的手抖是“独立 (Independent)”的！机器狗的左前腿传感器（点 $p$）因为踩到石头剧烈抖动，绝不会通过电线传染给右后腿的传感器（点 $q$）。它们俩的噪声毫无关联。数学表达： 在协方差矩阵里，只有自己跟自己比（也就是矩阵的主对角线，此时 $p=q$），才会加上这个噪声 $\sigma_n^2$。这就是 克罗内克 $\delta_{pq}$ (Kronecker delta) 的作用：碰到自己人（对角线）就是 1，碰到别人就是 0。
+为什么加的是 $\sigma_n^2 I$（单位矩阵），而不是在矩阵的所有格子里都加上噪声？物理真相：传感器的手抖是“独立 (Independent)”的！机器狗的左前腿传感器（点 $p$）因为踩到石头剧烈抖动，绝不会通过电线传染给右后腿的传感器（点 $q$）。它们俩的噪声毫无关联。数学表达： 在协方差矩阵里，只有自己跟自己比（也就是矩阵的主对角线，此时 $p=q$），才会加上这个噪声 $\sigma_n^2$。这就是 克罗内克
+$\delta_{pq}$ (Kronecker delta) 的作用：碰到自己人（对角线）就是 1，碰到别人就是 0。
 ##
 <img width="1134" height="504" alt="image" src="https://github.com/user-attachments/assets/b782696e-b2c5-40bb-9dbb-675500adbb05" />
 ##
@@ -34,7 +35,19 @@ I, (2.20)
 ##
 <img width="972" height="108" alt="image" src="https://github.com/user-attachments/assets/fa4dd388-2385-4283-9e7a-5844a9e4ba2e" />
 
-<img width="1142" height="584" alt="image" src="https://github.com/user-attachments/assets/d16a5045-e9c4-4293-806f-24a90daa5d83" />
+<img width="1142" height="584" alt="image" src="https://github.com/user-attachments/assets/d16a5045-e9c4-4293-806f-24a90daa5d83" 
+ ##
+ 
+<img width="990" height="325" alt="image" src="https://github.com/user-attachments/assets/f6a667c2-a080-464e-adc0-4d228d504270" />
+式子6，当机甲在野外自动寻找最佳的长度尺度 $l$ 时，它就是在寻找那个让 第一项（贴合现实） 和 第二项（保持简单） 达成最完美平衡的临界点！
+##
+
+<img width="1307" height="831" alt="image" src="https://github.com/user-attachments/assets/f961d010-35bc-442c-9078-b69ddbc8649c" />
+1正常，2过拟合，3欠拟合
+##
+
+
+
 
 
 
