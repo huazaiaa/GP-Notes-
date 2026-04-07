@@ -45,6 +45,22 @@ $\delta_{pq}$ (Kronecker delta) 的作用：碰到自己人（对角线）就是
 <img width="1307" height="831" alt="image" src="https://github.com/user-attachments/assets/f961d010-35bc-442c-9078-b69ddbc8649c" />
 1正常，2过拟合，3欠拟合
 ##
+序号,你的疑问点（Doubt）,核心物理/工程痛点,对应《GPML》知识点/概念,工业界“黑话”/直觉
+1,大模型（LLM）这么强，GP 还有用吗？,不确定性量化：机甲在生死关头需要知道“我不知道”。,"第二章：p(f∗​∥x∗​,D 的方差计算",Uncertainty Quantification (UQ)
+2,预测分布和损失函数为什么要分开？,真理与决策的隔离：雷达只报敌情，指挥官决定开火代价。,第二章：Bayesian Paradigm vs. Non-Bayesian,Separation of Likelihood and Loss
+3,为什么要对“概率$\times$损失”做积分求和？,期望风险：你必须为所有可能的平行宇宙风险买单。,公式 (2.32)：Expected Risk / 期望损失,Expected Loss Minimization
+4,仿真器这么强，为什么还要吃现实小样本？,Sim-to-Real Gap：仿真器里的公式是阉割版的宇宙。,第八章：Approximations (隐喻现实复杂性),Residual Learning (残差学习)
+5,为什么不直接改仿真器参数（白盒），要用 GP（黑盒）？,未建模动态：有些物理现象（磨损、形变）根本没写进代码。,第二章：Non-parametric modeling,Unmodeled Dynamics
+6,把 GP 塞进仿真循环里会怎样？,方差大爆炸：概率迷雾经过非线性挤压会迅速失真。,第五章前置：Uncertainty Propagation,Butterfly Effect in Stochastic Systems
+7,90维空间 5000个点也是“稀疏沙漠”啊？,维度灾难 vs. 流行假设：机甲动作其实只在窄道里跑。,第五章：Length-scales (l) 的物理意义,Manifold Hypothesis (流形假设)
+8,GP 为什么能吃深度学习（DL）提纯的“精华液”？,表征学习：DL 负责降维降噪，GP 负责在低维空间定生死。,第五章：Model Selection / 深度核学习,Representation Learning
+9,提纯后的“精华液”噪声还是高斯的吗？,端到端驯化：用 GP 的公式当鞭子，逼着 NN 提纯出高斯噪声。,第五章：Marginal Likelihood (边缘似然),Deep Kernel Learning (DKL)
+10,怎么确定 GP 的那些上帝旋钮（超参数）是对的？,自动进化：通过“边缘似然”的得分，自动寻找最合理的物理规律。,"第五章：Maximizing logp(y∥X,θ",Type-II ML (Evidence Maximization)
+
+<img width="1132" height="918" alt="image" src="https://github.com/user-attachments/assets/5e078803-d740-49b8-b3e3-e39a7cefb5ca" />
+
+<img width="1130" height="752" alt="image" src="https://github.com/user-attachments/assets/0d42c118-b1af-479e-ab17-a91b16c3e03b" />
+
 
 
 
